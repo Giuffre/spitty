@@ -1,2 +1,2 @@
 # spitty
-A simple key-value store for "bambini povri" 
+A simple key-value store for "programmatori povri" 
