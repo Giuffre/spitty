@@ -14,7 +14,8 @@ router.use(function timeLog(req, res, next) {
 // define the home page route
 router.get('/:key', (request, response) => {
   "use strict";
-
+  let key = request.params.key;
+  response.send(key);
 });
 
 router.post('/:key', (request, response) => {
