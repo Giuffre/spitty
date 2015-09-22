@@ -1,0 +1,19 @@
+{
+  "name": "spitty",
+  "version": "1.0.0",
+  "description": "A simple key-value store for \"programmatori povri\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giuffre/spitty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giuffre/spitty/issues"
+  },
+  "homepage": "https://github.com/Giuffre/spitty#readme"
+}
