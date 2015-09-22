@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Giuffre/spitty/issues"
   },
-  "homepage": "https://github.com/Giuffre/spitty#readme"
+  "homepage": "https://github.com/Giuffre/spitty#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
