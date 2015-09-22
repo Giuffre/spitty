@@ -2,7 +2,7 @@
  * Created by giuffre on 22/09/15.
  */
 
-class Item {
+export class Item {
   private _key;
   private _value;
 
