@@ -7,7 +7,12 @@ var spitty = express();
 
 spitty.get('/', (request, response) => {
   "use strict";
-  response.send("Wellcome to Spitty cache service.");
+  response.contentType('application/json');
+  response.send({
+    "service" : "Spitty (Cache)",
+    "description" : "Open Source simple cache system",
+    "persistent" : false
+  });
 });
 
 spitty.use('/item', ItemController);
