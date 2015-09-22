@@ -2,11 +2,15 @@
  * Created by giuffre on 22/09/15.
  */
 var express = require('express');
+var ItemController = require('../src/Spitty/Controller/Item.js');
 var spitty = express();
 
 spitty.get('/', (request, response) => {
-  response.send(spitty._router.toJSON());
+  "use strict";
+  response.send("Wellcome to Spitty cache service.");
 });
+
+spitty.use('/item', ItemController);
 
 
 var server = spitty.listen(3000, function () {
