@@ -7,11 +7,11 @@ var router = express.Router();
 
 // middleware specific to this router
 router.use(function timeLog(req, res, next) {
+  "use strict";
   console.log('Time: ', Date.now());
   next();
 });
 
-// define the home page route
 router.get('/:key', (request, response) => {
   "use strict";
   let key = request.params.key;
@@ -20,7 +20,6 @@ router.get('/:key', (request, response) => {
 
 router.post('/:key', (request, response) => {
   "use strict";
-  
 });
 
 module.exports = router;
