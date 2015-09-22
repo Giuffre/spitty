@@ -8,7 +8,8 @@ export class Item {
 
   constructor(key, value) {
     "use strict";
-
+    _key = key;
+    _value = value;
   }
 
   public get key() {
